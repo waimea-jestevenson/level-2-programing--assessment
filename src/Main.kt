@@ -14,6 +14,20 @@
 
 
 fun main() {
-    println("Hello World!")
+    println("Old Gold!")
+    //Creation of collection for the bored, and set up of the main game
+    val gameBored = mutableListOf<Int>()
+    gameBored.add(4)
+
+}
+//Function to get user input, make sure the input is valid, and add the input to the correct place in the collection
+// (Last part might need to be a different function)
+fun userInput(gameBored: MutableList<Int>) {
+    var userInput =readln().toIntOrNull()
+when (userInput) {
+    null -> println("That is not a valid move")
+    else -> println("")
 }
 
+
+}
