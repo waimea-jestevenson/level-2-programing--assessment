@@ -11,18 +11,18 @@
  * =====================================================================
  */
 
-
-
+const val NUMSPACES = 10 //The total of spaces on the bored
+const val EMPTY ="---"  // Shows empty spaces on the bored
 fun main() {
     println("Old Gold!")
     //Creation of collection for the bored, and set up of the main game
     val gameBored = mutableListOf<Int>()
-    gameBored.add(4)
+println(gameBored)
 
 }
 //Function to get user input, make sure the input is valid, and add the input to the correct place in the collection
 // (Last part might need to be a different function)
-fun userInput(gameBored: MutableList<Int>) {
+fun userInput(gameBored: MutableList<String>) {
     var userInput =readln().toIntOrNull()
 when (userInput) {
     null -> println("That is not a valid move")
@@ -30,4 +30,10 @@ when (userInput) {
 }
 
 
+}
+//Setting up the amount of spaces and coins on the bored 
+fun setUpBored(): MutableList<String> {
+    val gameBored = mutableListOf<String>()
+    for (i in 1..NUMSPACES) gameBored.add(EMPTY)
+    return gameBored
 }
