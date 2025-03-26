@@ -15,12 +15,12 @@ const val NUMSPACES = 10 //The total of spaces on the bored
 const val EMPTY =" "  // Shows empty spaces on the bored
 fun main() {
     println("Old Gold!")
-    println("The objective of this game is to be the one to take the gold coin off the bored" +
+    println("The objective of this game is to be the one to take the gold coin off the bored " +
             "Players can do one of two things on their turn, they can either move a coin as many spaces to the left as is possible " +
             "or they can take a coin off the bored if there is one in the left-most space.")
     //Creation of collection for the bored, and set up of the main game
     val gameBored = setUpBored()
-    val placeHolder = placeCoins()
+    val coinsOnBored = placeCoins(gameBored)
 println(gameBored)
 
 }
@@ -42,14 +42,16 @@ fun setUpBored(): MutableList<String> {
     return gameBored
 }
 //putting the coins in random spaces and checking if it's empty
-fun placeCoins (gameBored: MutableList<String>)  {
-val coin= gameBored.random()
- when {
-     coin.equals(EMPTY) -> gameBored.add("o")
-     else ->
+fun placeCoins (gameBored: MutableList<String>) {
+    val coin = gameBored.random()
+    if (coin == EMPTY
 
- }
-}
+    )}
+//When coins == NUMCOINS the loop should break
+
+
+
+
 
 // Place coins in empty places until there are the same amount of coins as NUMCOINS if there are less the loop continues if there are the same amount the loop breaks
 // have one coin that stops (breaks) the game as soon as it is removed from the bored
