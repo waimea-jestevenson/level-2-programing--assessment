@@ -10,32 +10,74 @@ Terminology:
 
 ---
 
-## Example Test Name
+## Bored set up
 
-Example test description. Example test description. Example test description. Example test description. Example test description. Example test description.
-
-### Test Data To Use
-
-Details of test data and reasons for selection. Details of test data and reasons for selection. Details of test data and reasons for selection.
-
-### Expected Test Result
-
-Statement detailing what should happen. Statement detailing what should happen. Statement detailing what should happen. Statement detailing what should happen. 
-
----
-
-## Example Test Name
-
-Example test description. Example test description. Example test description. Example test description. Example test description. Example test description.
+Testing that the bored is shown with the correct amount of spaces and the correct amount of coins .
 
 ### Test Data To Use
 
-Details of test data and reasons for selection. Details of test data and reasons for selection. Details of test data and reasons for selection.
+I am going to play the game multiple times to observe the layout.
 
 ### Expected Test Result
 
-Statement detailing what should happen. Statement detailing what should happen. Statement detailing what should happen. Statement detailing what should happen. 
+The bored will have the same number of spaces as the constant NUMSPACES and the same amount of coins as NUMCOINS on the bored.
 
 ---
+
+## User input
+
+Testing that the user inputs a valid move.
+
+### Test Data To Use
+
+
+
+### Expected Test Result
+
+The user inputs a number.
+
+
+---
+
+
+### Win condition 
+
+testing that the game will end when the gold coin is taken off the bored.
+
+### Test data to use
+
+### Expected test result 
+ 
+when the coin is taken off the bored the game should restart .
+
+---
+
+### Boundaries 
+
+Testing that the coins can be put into the first and last places on the bored.
+
+### Test data to use
+
+
+### Expected test result 
+
+The coins should be able to go into the first and last places of the bored .
+
+---
+
+### Invalid 
+
+testing that the user can't input an invalid move.
+
+### Test data to use
+
+
+### Expected test results 
+
+The user should not be able to input any invalid moves and when they try they should be told that move is invalid and asked to enter a different input.
+
+---
+
+
 
 

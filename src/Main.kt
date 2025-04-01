@@ -18,22 +18,27 @@ fun main() {
     println("Instructions for Old Gold.")
     //Creation of collection for the bored, and set up of the main game
     val gameBored = setUpBored()
-    val coinsOnBored = placeCoins(gameBored)
-    val userMove = userInput(gameBored)
-println(gameBored)
+    val coinsOnBored = setUpBored()
+    val userMove = ""
+    println(coinsOnBored)
+
 
 
 }
 //Function to get user input, make sure the input is valid, and add the input to the correct place in the collection
 // (Last part might need to be a different function)
 fun userInput(gameBored: MutableList<String>) {
+    val gameBored = mutableListOf<String>()
     var userInput =readln().toIntOrNull()
 when (userInput) {
     null -> println("That is not a valid move")
     else -> println("")
 }
+    gameBored.removeAt(gameBored.size + 1)
+    gameBored.add(userInput.toString())
+   // remove from current place in the list and put into new place in the list.
 
-
+//
 }
 //Setting up the amount of spaces
 fun setUpBored(): MutableList<String> {
@@ -42,19 +47,24 @@ fun setUpBored(): MutableList<String> {
     return gameBored
 }
 //putting the coins in random spaces and checking if it's empty
-fun placeCoins (gameBored: MutableList<String>) {
+fun placeCoins (gameBored: MutableList<String>): MutableList<String> {
     val coin = gameBored.random()
     while (gameBored.indexOf("0") != NUMCOINS) {
         (coin == EMPTY)
         gameBored.add(EMPTY)
-      return
+        if (gameBored.indexOf("0") == NUMCOINS) {
+            return gameBored
+        }
     }
-}//When coins == NUMCOINS the loop should break
+    return TODO("Provide the return value")
+}
+
+//When coins == NUMCOINS the loop should break
 
 
 
 
 
 // Place coins in empty places until there are the same amount of coins as NUMCOINS if there are less the loop continues if there are the same amount the loop breaks
-// have one coin that stops (breaks) the game as soon as it is removed from the bored
+// have one coin that stops the game as soon as it is removed from the bored
 //have alternating turns between two human players (possibly add player scores)
