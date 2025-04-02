@@ -26,7 +26,7 @@ The bored will have the same number of spaces as the constant NUMSPACES and the 
 
 ## User input
 
-Testing that the user inputs a valid move.
+Testing that the user can input something 
 
 ### Test Data To Use
 
@@ -34,7 +34,7 @@ Testing that the user inputs a valid move.
 
 ### Expected Test Result
 
-The user inputs a number.
+The user makes an input and it is shown on the screen 
 
 
 ---

@@ -12,14 +12,13 @@
  */
 const val NUMCOINS = 5   //The Number of coins
 const val NUMSPACES = 10 //The total of spaces on the bored
-const val EMPTY =" "  // Shows empty spaces on the bored
+const val EMPTY =" "  //Shows empty spaces on the bored
 fun main() {
     println("Old Gold!")
     println("Instructions for Old Gold.")
     //Creation of collection for the bored, and set up of the main game
     val gameBored = setUpBored()
-    val coinsOnBored = setUpBored()
-    val userMove = ""
+    val coinsOnBored = placeCoins(gameBored) //Having gameBored in brackets makes the gameBored disappear because why would it work as intended
     println(coinsOnBored)
 
 
@@ -27,19 +26,30 @@ fun main() {
 }
 //Function to get user input, make sure the input is valid, and add the input to the correct place in the collection
 // (Last part might need to be a different function)
-fun userInput(gameBored: MutableList<String>) {
+fun userInput(prompt: Int?) : Int? {
     val gameBored = mutableListOf<String>()
-    var userInput =readln().toIntOrNull()
-when (userInput) {
-    null -> println("That is not a valid move")
-    else -> println("")
+    var userInput = readln().toIntOrNull()
+    while (true) {
+        print(prompt)
+        if (userInput != null) {
+            break
+        }
+
+    }
+    return userInput
 }
-    gameBored.removeAt(gameBored.size + 1)
-    gameBored.add(userInput.toString())
-   // remove from current place in the list and put into new place in the list.
+
+fun
+
+
+
+
+   // gameBored.removeAt(gameBored.size + 1)
+    //gameBored.add(userInput.toString())
+    // remove from current place in the list and put into new place in the list.
 
 //
-}
+
 //Setting up the amount of spaces
 fun setUpBored(): MutableList<String> {
     val gameBored = mutableListOf<String>()
@@ -53,10 +63,10 @@ fun placeCoins (gameBored: MutableList<String>): MutableList<String> {
         (coin == EMPTY)
         gameBored.add(EMPTY)
         if (gameBored.indexOf("0") == NUMCOINS) {
-            return gameBored
+
         }
     }
-    return TODO("Provide the return value")
+return gameBored
 }
 
 //When coins == NUMCOINS the loop should break
