@@ -29,7 +29,7 @@ The program structure:
 - [ ] Contains **sequences** of instructions
 - [ ] Uses **conditional** instructions to control the program flow
 - [x] Uses program **branches** (if...else, when, etc.)
-- [ ] Uses **iteration** (loops) to repeat things (for, while, etc.)
+- [x] Uses **iteration** (loops) to repeat things (for, while, etc.)
 
 ### Program Documentation
 
@@ -81,7 +81,7 @@ The program code is well-commented:
 ### Program Testing
 
 The program has been tested using:
-- [ ] A test plan **prepared in advance** of the coding
+- [x] A test plan **prepared in advance** of the coding
 - [ ] A test plan that **defines test data values** to be used
 - [ ] Test values that cover **boundary** (limit / edge) cases
 

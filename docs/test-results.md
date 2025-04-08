@@ -46,3 +46,32 @@ Details of test data. Details of test data. Details of test data. Details of tes
 ### Test Result
 ![example.png](screenshots/example.png)
 
+---
+
+## Boundries
+
+Example test description. Example test description. Example test description. Example test description. Example test description. Example test description
+
+### Test Data Used 
+
+Details of test data. Details of test data. Details of test data. Details of test data. Details of test Data. Details of test data. Details of test data.
+
+### Test Result 
+
+![example.png](screenshots/example.png)
+
+---
+
+## Invalid Inputs 
+Example test description. Example test description. Example test description. Example test description. Example test description. Example test description.
+
+### Test Data Used 
+
+Details of test data. Details of test data. Details of test data. Details of test data. Details of test data. Details of test data. Details of test data.
+
+### Test Result
+
+![example.png](screenshots/example.png)
+
+---
+

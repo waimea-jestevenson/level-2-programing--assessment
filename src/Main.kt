@@ -24,6 +24,19 @@ fun main() {
 
 
 }
+
+fun playersNames(prompt: Array<String>): Array<String> {
+    var name = readln()
+    if (name.isNotBlank())
+    println(prompt.size)
+
+}
+
+
+
+
+
+
 //Function to get user input, make sure the input is valid, and add the input to the correct place in the collection
 // (Last part might need to be a different function)
 fun userInput(prompt: Int?) : Int? {

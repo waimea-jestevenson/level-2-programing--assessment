@@ -65,7 +65,7 @@ The coins should be able to go into the first and last places of the bored.
 
 ---
 
-## Invalid 
+## Invalid User Inputs
 
 testing that the user can't input an invalid move.
 
