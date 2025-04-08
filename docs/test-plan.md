@@ -34,13 +34,13 @@ Testing that the user can input something
 
 ### Expected Test Result
 
-The user makes an input and it is shown on the screen 
+The user makes an input and the user can see what they have inputted.
 
 
 ---
 
 
-### Win condition 
+## Win condition 
 
 testing that the game will end when the gold coin is taken off the bored.
 
@@ -48,11 +48,11 @@ testing that the game will end when the gold coin is taken off the bored.
 
 ### Expected test result 
  
-when the coin is taken off the bored the game should restart .
+when the gold coin is taken off the bored the game should end.
 
 ---
 
-### Boundaries 
+## Boundaries 
 
 Testing that the coins can be put into the first and last places on the bored.
 
@@ -61,11 +61,11 @@ Testing that the coins can be put into the first and last places on the bored.
 
 ### Expected test result 
 
-The coins should be able to go into the first and last places of the bored .
+The coins should be able to go into the first and last places of the bored.
 
 ---
 
-### Invalid 
+## Invalid 
 
 testing that the user can't input an invalid move.
 

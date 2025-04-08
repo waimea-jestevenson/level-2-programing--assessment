@@ -4,7 +4,7 @@ The test results show the actual outcome of the testing, following the [Test Pla
 
 ---
 
-## Example Test Name
+## Bored set up 
 
 Example test description. Example test description.Example test description. Example test description.Example test description. Example test description.
 
@@ -20,7 +20,7 @@ Comment on test result. Comment on test result. Comment on test result. Comment 
 
 ---
 
-## Example Test Name
+## User input
 
 Example test description. Example test description.Example test description. Example test description.Example test description. Example test description.
 
@@ -35,4 +35,14 @@ Details of test data. Details of test data. Details of test data. Details of tes
 Comment on test result. Comment on test result. Comment on test result. Comment on test result. Comment on test result. Comment on test result.
 
 ---
+## Win Condition 
+
+Example test description. Example test description. Example test description. Example test description. Example test description. Example test description.
+
+### Test Data Used 
+
+Details of test data. Details of test data. Details of test data. Details of test data. Details of test data. Details of test data. Details of test data.
+
+### Test Result
+![example.png](screenshots/example.png)
 

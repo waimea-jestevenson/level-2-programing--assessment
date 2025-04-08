@@ -11,7 +11,7 @@
  * =====================================================================
  */
 const val NUMCOINS = 5   //The Number of coins
-const val NUMSPACES = 10 //The total of spaces on the bored
+const val NUMSPACES = 12 //The total of spaces on the bored
 const val EMPTY =" "  //Shows empty spaces on the bored
 fun main() {
     println("Old Gold!")
@@ -39,7 +39,7 @@ fun userInput(prompt: Int?) : Int? {
     return userInput
 }
 
-fun
+//Ask for two names and print the name of the user whose turn it is
 
 
 
@@ -50,7 +50,9 @@ fun
 
 //
 
-//Setting up the amount of spaces
+/**
+ * Setting up the number of spaces on the bored
+ */
 fun setUpBored(): MutableList<String> {
     val gameBored = mutableListOf<String>()
     for (i in 1..NUMSPACES) gameBored.add(EMPTY)
@@ -66,7 +68,7 @@ fun placeCoins (gameBored: MutableList<String>): MutableList<String> {
 
         }
     }
-return gameBored
+return placeCoins(gameBored)
 }
 
 //When coins == NUMCOINS the loop should break

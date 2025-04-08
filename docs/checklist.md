@@ -10,7 +10,7 @@ This checklist can be used to gauge progress towards different levels of success
 
 The game functions correctly and meets the specification:
 - [ ] The game is **playable**
-- [ ] The **instructions** for the game are available in-game
+- [x] The **instructions** for the game are available in-game
 - [ ] **Two players** can play
 - [ ] Player **names** are used to identify each player
 - [ ] Players **take turns** to play
@@ -21,14 +21,14 @@ The game functions correctly and meets the specification:
 ### Program Code
 
 The program stores data using:
-- [ ] **Variables** of at least two types (e.g. int, text, boolean)
-- [ ] At least one **data collection** (array / list) to store some elements of the game data
+- [x] **Variables** of at least two types (e.g. int, text, boolean)
+- [x] At least one **data collection** (array / list) to store some elements of the game data
 
 The program structure:
-- [ ] Is broken up into **functions**: a main function, plus other supporting functions 
+- [x] Is broken up into **functions**: a main function, plus other supporting functions 
 - [ ] Contains **sequences** of instructions
 - [ ] Uses **conditional** instructions to control the program flow
-- [ ] Uses program **branches** (if...else, when, etc.)
+- [x] Uses program **branches** (if...else, when, etc.)
 - [ ] Uses **iteration** (loops) to repeat things (for, while, etc.)
 
 ### Program Documentation
@@ -58,16 +58,16 @@ The program has been tested and there is documented evidence that:
 ### Program Code
 
 The program stores data using variables, where:
-- [ ] Variable **names are well-chosen** (relating to their purpose)
-- [ ] Variable names **begin with lowercase**
-- [ ] Naming is consistent, either **camelCase or snake_case**
+- [x] Variable **names are well-chosen** (relating to their purpose)
+- [x] Variable names **begin with lowercase**
+- [x] Naming is consistent, either **camelCase or snake_case**
 - [ ] Variables are **scoped appropriately** (global or local to a function)
 - [ ] **Global** variables are only used if **genuinely needed**
 
 The program uses functions appropriately, where:
 - [ ] At least one uses **parameters** to pass data into it
-- [ ] At least one provides a **return value** to the calling code
-- [ ] The function **names are well-chosen**, relating to their functionality 
+- [x] At least one provides a **return value** to the calling code
+- [x] The function **names are well-chosen**, relating to their functionality 
 
 ### Program Documentation
 
@@ -92,7 +92,7 @@ The program has been tested using:
 ### Program Code
 
 Program flexibility and maintainability is aided by:
-- [ ] **Constants** being used to define key values, and used throughout the program
+- [x] **Constants** being used to define key values, and used throughout the program
 - [ ] Variable values being **derived at run-time** (from other variables / constants)
 - [ ] Literal values only being used if they **make sense**, and they don't impact program flexibility
 
