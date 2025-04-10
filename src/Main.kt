@@ -15,10 +15,10 @@ const val NUMSPACES = 12 //The total of spaces on the bored
 const val EMPTY =" "  //Shows empty spaces on the bored
 fun main() {
     println("Old Gold!")
-    println("Instructions for Old Gold.")
+    println("In your turn you can either move a coin to the left or take a coin off the bored if it is in the left most space. Coins can't jump over other coins. To win you must be the player who takes the gold coin off the bored.")
     //Creation of collection for the bored, and set up of the main game
     val gameBored = setUpBored()
-    val coinsOnBored = placeCoins(gameBored) //Having gameBored in brackets makes the gameBored disappear because why would it work as intended
+    val coinsOnBored = placeCoins(gameBored) //Having gameBored in brackets makes the gameBored disappear but if it isn't there the code just doesn't work
     println(coinsOnBored)
 
 
@@ -28,9 +28,11 @@ fun main() {
 fun playersNames(prompt: Array<String>): Array<String> {
     var name = readln()
     if (name.isNotBlank())
-    println(prompt.size)
+
 
 }
+return
+
 
 
 
@@ -85,7 +87,7 @@ return placeCoins(gameBored)
 }
 
 //When coins == NUMCOINS the loop should break
-
+//Shuffle is random
 
 
 

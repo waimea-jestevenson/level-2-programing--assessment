@@ -1,4 +1,4 @@
-# PROJECT NAME HERE
+# OLD GOLD
 
 by Juliet Stevenson
 
@@ -13,7 +13,7 @@ The project is written in the [Kotlin](https://kotlinlang.org) programming langu
 - Using non-trivial string manipulation
 - Using additional non-core libraries
 
-** EDIT LIST ABOVE TO MATCH YOUR PROJECT**
+
 
 ---
 

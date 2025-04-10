@@ -6,7 +6,7 @@ The test results show the actual outcome of the testing, following the [Test Pla
 
 ## Bored set up 
 
-Example test description. Example test description.Example test description. Example test description.Example test description. Example test description.
+Example test description. Example test description. Example test description. Example test description. Example test description. Example test description.
 
 ### Test Data Used
 

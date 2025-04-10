@@ -46,6 +46,8 @@ testing that the game will end when the gold coin is taken off the bored.
 
 ### Test data to use
 
+play the game multiple times 
+
 ### Expected test result 
  
 when the gold coin is taken off the bored the game should end.
@@ -58,6 +60,7 @@ Testing that the coins can be put into the first and last places on the bored.
 
 ### Test data to use
 
+play the game and make sure that coins can go into the first and last places.
 
 ### Expected test result 
 
