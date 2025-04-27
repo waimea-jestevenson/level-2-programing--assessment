@@ -16,7 +16,7 @@ Testing that the bored is shown with the correct amount of spaces and the correc
 
 ### Test Data To Use
 
-I am going to play the game multiple times to observe the layout.
+I am going to run the code multiple times to observe the layout.
 
 ### Expected Test Result
 
@@ -26,11 +26,11 @@ The bored will have the same number of spaces as the constant NUMSPACES and the 
 
 ## User input
 
-Testing that the user can input something 
+Testing that the user can select a coin and move it.
 
 ### Test Data To Use
 
-
+I will run the game multiple times.
 
 ### Expected Test Result
 
@@ -74,6 +74,7 @@ testing that the user can't input an invalid move.
 
 ### Test data to use
 
+I will play the game multiple times and try to input an invalid move.
 
 ### Expected test results 
 

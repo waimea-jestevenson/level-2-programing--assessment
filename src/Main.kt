@@ -25,13 +25,17 @@ fun main() {
 
 }
 
-fun playersNames(prompt: Array<String>): Array<String> {
-    var name = readln()
-    if (name.isNotBlank())
+fun playersNames(prompt: Array<String>) {
+    var playerName = readln()
+    if (playerName.isNotBlank()) {
+
+    }
 
 
 }
-return
+
+
+
 
 
 
