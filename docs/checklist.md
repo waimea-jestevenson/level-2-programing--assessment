@@ -82,7 +82,7 @@ The program code is well-commented:
 
 The program has been tested using:
 - [x] A test plan **prepared in advance** of the coding
-- [ ] A test plan that **defines test data values** to be used
+- [x] A test plan that **defines test data values** to be used
 - [x] Test values that cover **boundary** (limit / edge) cases
 
 ---

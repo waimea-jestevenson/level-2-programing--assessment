@@ -23,6 +23,7 @@ fun main() {
 
 
 
+
 }
 
 fun playersNames(prompt: Array<String>) {
@@ -90,12 +91,7 @@ fun placeCoins (gameBored: MutableList<String>): MutableList<String> {
 return placeCoins(gameBored)
 }
 
-//When coins == NUMCOINS the loop should break
-//Shuffle is random
 
 
 
 
-// Place coins in empty places until there are the same amount of coins as NUMCOINS if there are less the loop continues if there are the same amount the loop breaks
-// have one coin that stops the game as soon as it is removed from the bored
-//have alternating turns between two human players (possibly add player scores)

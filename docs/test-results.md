@@ -9,14 +9,14 @@ The test results show the actual outcome of the testing, following the [Test Pla
 Testing that the bored is set up correctly by checking there are the correct amount of spaces and the correct amount of coins as stated by the constants at the top of the code.
 
 ### Test Data Used
-I ran the code multiple times to observe the layout.
+Run the code. 
 
 
 ### Test Result
 
-![example.png](screenshots/example.png)
+![image.of.bored](img.png)
 
-Comment on test result. Comment on test result. Comment on test result. Comment on test result. Comment on test result. Comment on test result.
+The bored isn't showing up at all because it just doesn't feel like it.
 
 ---
 
@@ -26,11 +26,10 @@ Testing that the user can select a coin and move it.
 
 ### Test Data Used
 
-Details of test data. Details of test data. Details of test data. Details of test data. Details of test data. Details of test data. Details of test data.
-
+Running the program and playing it multiple times.
 ### Test Result
 
-![example.png](screenshots/example.png)
+![]()
 
 Comment on test result. Comment on test result. Comment on test result. Comment on test result. Comment on test result. Comment on test result.
 
@@ -41,25 +40,27 @@ Testing that when the gold coin is taken off the bored the game ends and the pla
 
 ### Test Data Used 
 
-I played through the game multiple times.
+Running the program multiple times.
 
 ### Test Result
-![example.png](screenshots/example.png)
+![]()
 
+Comment on test result. Comment on test result. Comment on test result. Comment on test result. Comment on test result. Comment on test result.
 ---
 
-### Boundries
+### Boundaries
 
 Testing that a coin can spawn on the right-most space and that coins can be placed into the left-most space on the bored.
 
 ### Test Data Used 
 
-I ran the code multiple times to check the spawn locations of the coins.
+Running the code multiple times.
 
 ### Test Result 
 
-![example.png](screenshots/example.png)
+![]()
 
+Comment on test result. Comment on test result. Comment on test result. Comment on test result. Comment on test result. Comment on test result.
 ---
 
 ### Invalid Inputs 
@@ -67,11 +68,12 @@ Example test description. Example test description. Example test description. Ex
 
 ### Test Data Used 
 
-Details of test data. Details of test data. Details of test data. Details of test data. Details of test data. Details of test data. Details of test data.
+Playing the game and trying to input an invalid move.
 
 ### Test Result
 
-![example.png](screenshots/example.png)
+![]()
 
+Comment on test result. Comment on test result. Comment on test result. Comment on test result. Comment on test result. Comment on test result.
 ---
 

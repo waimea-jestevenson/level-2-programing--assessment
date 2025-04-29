@@ -10,23 +10,23 @@ Terminology:
 
 ---
 
-## Bored set up
+### Bored set up
 
-Testing that the bored is shown with the correct amount of spaces and the correct amount of coins .
+Testing that the bored is shown with the correct amount of spaces and coins. 
 
 ### Test Data To Use
 
-I am going to run the code multiple times to observe the layout.
+Running the code to check for this specific test.
 
 ### Expected Test Result
 
-The bored will have the same number of spaces as the constant NUMSPACES and the same amount of coins as NUMCOINS on the bored.
+The bored will have the same amount of spaces as the constant NUMSPACES and the same amount of coins as NUMCOINS on the bored.
 
 ---
 
-## User input
+### User input
 
-Testing that the user can select a coin and move it.
+Testing that the user can make an input.
 
 ### Test Data To Use
 
@@ -34,13 +34,13 @@ I will run the game multiple times.
 
 ### Expected Test Result
 
-The user makes an input and the user can see what they have inputted.
+The user makes an input and the user can see what they have inputted somewhere in the program.
 
 
 ---
 
 
-## Win condition 
+### Win condition 
 
 testing that the game will end when the gold coin is taken off the bored.
 
@@ -54,34 +54,33 @@ when the gold coin is taken off the bored the game should end.
 
 ---
 
-## Boundaries 
+### Boundaries 
 
-Testing that the coins can be put into the first and last places on the bored.
+Testing that the coins can be put into the first and last spaces on the bored.
 
 ### Test data to use
 
-play the game and make sure that coins can go into the first and last places.
+play the game and make sure that coins can go into the first and last spaces.
 
 ### Expected test result 
 
-The coins should be able to go into the first and last places of the bored.
+The coins should be able to go into the first and last spaces on the bored 
 
 ---
 
-## Invalid User Inputs
+### Invalid User Inputs
 
-testing that the user can't input an invalid move.
+testing that the user make an invalid input.
 
 ### Test data to use
 
-I will play the game multiple times and try to input an invalid move.
+I will play the game multiple times and try to make an invalid input.
 
 ### Expected test results 
 
-The user should not be able to input any invalid moves and when they try they should be told that move is invalid and asked to enter a different input.
+The user should not be able to make any invalid inputs and when they try they should be told that the input is invalid and asked to enter something else.
 
 ---
-
 
 
 
