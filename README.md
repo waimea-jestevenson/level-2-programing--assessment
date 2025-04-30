@@ -27,7 +27,7 @@ The project is written in the [Kotlin](https://kotlinlang.org) programming langu
 
 ## Project Description
 
-**Old Gold is a game played on a one-dimensional grid with a handful of coins, 1 is gold the rest are silver, the coins can only move to the left and can't hop over other coins. Players can choose to move a coin to the left or take a coin of the left-most tile if there is one there. The goal of the game is to be the person to take the gold coin off the board.**
+**Old Gold is a game played on a one-dimensional grid with a handful of coins, one is gold the rest are silver, the coins can only move to the left and can't hop over other coins. Players can choose to move a coin to the left or take a coin of the left-most tile if there is one there. The goal of the game is to be the person to take the gold coin off the board.**
 
 
 

@@ -99,7 +99,7 @@ Program flexibility and maintainability is aided by:
 Program flexibility and maintainability is aided by good program structure:
 - [ ] Conditions, branching, loops and functions are used **effectively**
 - [ ] Procedures are **efficient** (minimal iterations, etc.)
-- [ ] **Minimal duplication of code** (instead using loops, or having multiple calls to a single function)
+- [x] **Minimal duplication of code** (instead using loops, or having multiple calls to a single function)
 - [ ] Functions are **well-chosen and logical**, with a clearly defined purpose
 - [ ] The functions chosen represent a **logical decomposition** of the task
 

@@ -31,7 +31,7 @@ Running the program and playing it multiple times.
 
 ![]()
 
-Comment on test result. Comment on test result. Comment on test result. Comment on test result. Comment on test result. Comment on test result.
+
 
 ---
 ### Win Condition 
@@ -45,7 +45,8 @@ Running the program multiple times.
 ### Test Result
 ![]()
 
-Comment on test result. Comment on test result. Comment on test result. Comment on test result. Comment on test result. Comment on test result.
+
+
 ---
 
 ### Boundaries
@@ -60,11 +61,12 @@ Running the code multiple times.
 
 ![]()
 
-Comment on test result. Comment on test result. Comment on test result. Comment on test result. Comment on test result. Comment on test result.
+
+
 ---
 
 ### Invalid Inputs 
-Example test description. Example test description. Example test description. Example test description. Example test description. Example test description.
+
 
 ### Test Data Used 
 
@@ -74,6 +76,7 @@ Playing the game and trying to input an invalid move.
 
 ![]()
 
-Comment on test result. Comment on test result. Comment on test result. Comment on test result. Comment on test result. Comment on test result.
+
+
 ---
 
